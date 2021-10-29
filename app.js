@@ -12,7 +12,7 @@ app.use((req, res, next) => {
 
 app.get("/", (req, res) => {
   res.send(
-    "<h1> Hello World... I Can Run Node JS Through My Web Browser </h1>"
+    "<h1> Hello... I Can Run Node JS Through My Web Browser </h1>"
   );
 });
 
