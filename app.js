@@ -17,7 +17,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/home", (req, res) => {
-  res.send("<h1> Hello.. This is Homepage </h1>");
+  res.send("<h1> Hello.. This is Home Page </h1>");
 });
 
 app.get("/about", (req, res) => {
