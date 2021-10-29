@@ -17,15 +17,15 @@ app.get("/", (req, res) => {
 });
 
 app.get("/home", (req, res) => {
-  res.send("<h1> Hello.. This is Home Page </h1>");
+  res.send("Hello.. This is Home Page");
 });
 
 app.get("/about", (req, res) => {
-  res.send("<h1> Hello.. This is About Page");
+  res.send("Hello.. This is About Page");
 });
 
 app.get("/services", (req, res) => {
-  res.send("<h1> Hello.. This is Services Page </h1>");
+  res.send("Hello.. This is Services Page");
 });
 
 app.listen(port, () => {
